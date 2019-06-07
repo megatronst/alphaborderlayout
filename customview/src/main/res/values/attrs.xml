@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AlphaBorderLayout">
+        <!--边框内部圆角半径-->
+        <attr name="inside_radius" format="dimension"/>
+        <!--边框外部圆角半径-->
+        <attr name="outside_radius" format="dimension"/>
+        <!--边框颜色、宽度、透明度-->
+        <attr name="border_color" format="color"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_alpha" format="float"/>
+    </declare-styleable>
+</resources>
